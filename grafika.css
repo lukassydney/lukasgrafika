@@ -1,0 +1,145 @@
+.satu{
+    width: 100%;
+    height: 60px;
+    padding : auto;
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 25pt;
+}
+.publish{
+    width : 100%;
+    height : 450px;
+    padding-top : 20px;
+    background-color: gray;
+    border : 5px solid black;
+    text-align: center;
+}
+.publish span{
+    width : 100%;
+    height : 10px;
+    padding : 20px;
+    background-color:green;
+    border : 5px solid black;
+    text-align: center;
+}
+.tridi{
+    width : 100%;
+    height : 450px;
+    padding-top : 20px;
+    background-color: gray;
+    border : 5px solid black;
+    text-align: center;
+}
+.tridi span{
+    width : 100%;
+    height : 10px;
+    padding: 20px;
+    background-color: green;
+    border: 5px solid black;
+    text-align: center;
+}
+.keterangan{
+    width : 40%;
+    height : 350px;
+    padding-top : 20px;
+    background-color:white;
+    border : 5px solid black;
+    margin : auto;
+    
+}
+.keterangan span{
+    width : 100%;
+    height : 10px;
+    padding: 20px;
+    background-color: green;
+    border: 5px solid black;
+    text-align: left;
+    margin : 40%;
+}
+.anggota{
+    width : 40%;
+    height : 40px;
+    padding-top : auto;
+    margin : auto;
+    background-color: gray;
+    border : 5px solid black;
+    text-align: center;
+    font-size: 15pt;
+   
+}
+.slide{
+    width : 100%;
+    height : 450px;
+    background-color: gray;
+    position : relative;
+    border : 5px solid black;
+}
+.slide1,.slide2,.slide3{
+    position : absolute;
+    width : 100%;
+    height : 75%;
+}
+.slide span{
+    width : 100%;
+    height : 10px;
+    margin-left : 46%;
+    padding: 20px;
+    background-color: green;
+    border: 5px solid black;
+    text-align: center;
+}
+.slide1{
+    background : url(1.PNG) no-repeat center;
+    background-size: cover;
+    animation : fade 5s infinite;
+}
+.slide2{
+    background : url(2.PNG) no-repeat center;
+    background-size: cover;
+    animation : fade 5s infinite;
+}
+.slide3{
+    background : url(3.PNG) no-repeat center;
+    background-size: cover;
+    animation : fade 5s infinite;
+}
+.slide4{
+    background : url(4.PNG) no-repeat center;
+    background-size: cover;
+    animation : fade 5s infinite;
+}
+
+
+@keyframes fade{
+    0%{opacity:1}
+    25%{opacity:0}
+    50%{opacity:0}
+    75%{opacity:0}
+    85%{opacity:0}
+    100%{opacity:1}
+}
+@keyframes fade{
+    0%{opacity:0}
+    25%{opacity:1}
+    50%{opacity:0}
+    75%{opacity:0}
+    85%{opacity:0}
+    100%{opacity:0}
+}
+@keyframes fade{
+    0%{opacity:0}
+    25%{opacity:0}
+    50%{opacity:0}
+    75%{opacity:1}
+    85%{opacity:0}
+    100%{opacity:0}
+}
+@keyframes fade{
+    0%{opacity:0}
+    25%{opacity:0}
+    50%{opacity:0}
+    75%{opacity:0}
+    85%{opacity:1}
+    100%{opacity:0}
+}
+
